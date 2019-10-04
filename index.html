@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <!-- <meta http-equiv="refresh" content="2"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +15,11 @@
         Beowser anda tidak mendukung html5 <code>&lt,canvas&gt;</code>.
     </canvas>
 </body>
+<script name="shader" data-src="vertex.glsl" data-type="vertex" data-version="v1" type="x-shader"></script>
+
+<script name="shader" data-src="fragment.glsl" data-type="fragment" data-version="v1" type="x-shader"></script>
+
+<script src="libs/signals.js"></script>
 <script src="libs/glUtils.js"></script>
 <script src="index.js"></script>
 </html>
